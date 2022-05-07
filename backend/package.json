@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "tsnd src/server.ts",
     "build": "tsc",
-    "start": "node dist/server.js"
+    "start": "node dist/server.js",
+    "database": "npx prisma migrate deploy"
   },
   "devDependencies": {
     "@swc/core": "^1.2.177",
